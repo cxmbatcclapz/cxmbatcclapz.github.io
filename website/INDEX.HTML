@@ -1,0 +1,79 @@
+<html> 
+<head>
+	<link type="text/css" rel="stylesheet"href="main.css"
+	<title>Fortnite</title>
+<script>
+function banner(){ 
+var text = confirm("Did You Really Want to Click on My Banner?"); 
+return text;
+}
+
+function answer(){
+var radio = document.get elements by name("trivia")	
+var selection = false;
+var message ="";
+for( var i = 0; i < radio.length; i++) {
+if(radio[i].value == "yes" && radio[i].checked == true) { 
+selection = true; 
+	} //end if statement 
+	} //end for loop
+	if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+			} 
+</script>
+</head> 
+<body id="background" >
+<a  onclick="return banner()" href="http://epicgames.com">
+<h2><header id="banner">this is <span class="wrap-text">for sure</span> my header!</header></h2>
+</a>
+<nav>
+	<ul id="navmenu">
+			<li><a class="navitem"><a href="index.html"> Home </a> </li>
+			<li><a class="navitem"> <a href="games.html"> Games </a> </li>
+			<li><a class="navitem"> <a href="videos.html"> Videos </a> </li>
+	</ul>
+</nav>	
+
+
+<h1>Playing fortnite</h1>
+	<p>
+		The game fortnite is a pretty fun game
+		u can play it allows 1v1 peolple boxfight,buidfights,zonewars. and u can do battle royale and<u> <strong>fortnite is the most popular game this year</strong></u>. 
+	</p>
+<audio width="400" height="220" controls 
+<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg"></audio>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qWnBPjCdOlM?start=247" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="wrap-list">
+	<ol>
+		<li class="listitem">fortnite networth is 2billion
+		<li class="listitem"> networth of fortnite battle royale is
+		 130billion
+		 
+			<li class="listitem">its 100 player each battle royale
+</ol>
+</div>
+
+<div class="wrap-trivia">
+<h2>Fortnite trivia question:</h2>
+<p>Who won the fortnit world cup in 2019 and won $3million</p>
+
+<form>
+	<div id="response"> </div>
+	<input type="radio" name="trivia"value="no"> clix <br/>
+	<input type="radio" name="trivia"value="yes"> bugha<br>
+	<input type="radio" name="trivia"value="no"> ninja<br>
+	<input type="radio" name="trivia"value="no"> mongraal<br>
+	<input oneclick="answer()" id="button" value="submit">
+	
+</form>
+<center> damani <a href="https://simplystem.com/code-dungeon/">my <span class="wrap-text">favorite website</a></center>
+
+<footer id="footer">i created this website.</footer>
+
+</body>  
+</html> 
